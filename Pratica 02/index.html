@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Praticando JS</title>
+</head>
+    <!-- Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha igual ao nome do usuário, mostrando uma mensagem de erro e voltando a pedir as informações.  -->
+
+<body>
+    <header>
+      <h1>Praticando JS</h1>
+    </header>
+    <section>
+      <div id="dados">
+          <p>
+              <label for="txt1">Usuário:</label>
+              <input type="text" name="user" id="txt1">
+          </p>
+          <p>
+              <label for="txt2">Senha:</label>
+              <input type="password" name="senha" id="txt2">
+          </p>
+          <p>
+              <input type="button" value="Cadastrar" onclick="cadastro()">
+          </p>
+      </div>
+      <div id="res">
+          <small>*Aperte para cadastrar*</small> 
+      </div>
+    </section>
+    <footer>
+      <p>&copy;Curso em Vídeo</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
