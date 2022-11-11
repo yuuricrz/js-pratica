@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Praticando JS</title>
+</head>
+<body>
+    <header>
+        <h1>Praticando JS</h1>
+      </header>
+      <section>
+        <div id="dados">
+            <p>
+                <label for="txtnome">Nome:</label> <input type="text" name="nome" id="txtnome">
+            </p>
+            <p>
+                <label for="txtidade">Idade:</label> <input type="number" name="idd" id="txtidade">
+            </p>
+            <p>
+                <label for="txtsal">Salário: R$</label> <input type="number" name="" id="txtsal">
+            </p>
+            <p>
+                Sexo: <input type="radio" name="radsex" id="masc"> Masculino 
+                      <input type="radio" name="radsex" id="fem"> Feminino
+            </p>
+            <p>
+                Estado Civil:<br><input type="radio" name="radcivil" id="opcsol"> Solteiro(a)<br>
+                              <input type="radio" name="radcivil" id="opccas"> Casado(a)<br>
+                              <input type="radio" name="radcivil" id="opcviu"> Viúvo(a)<br>
+                              <input type="radio" name="radcivil" id="opcdiv"> Divorciado(a)<br>
+            </p>
+            <input type="button" value="Enviar Dados" onclick="confirmar()"><br>
+        </div>
+        <div id="res"><br>
+            Preencha os campos e confirme.
+        </div>
+      </section>
+      <footer>
+        <p>&copy;Curso em Vídeo</p>
+      </footer>
+      <script src="index.js"></script>
+</body>
+</html>
